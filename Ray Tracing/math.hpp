@@ -1,5 +1,5 @@
-#ifndef MATH_H
-#define MATH_H
+#ifndef MATH_HPP
+#define MATH_HPP
 
 #include <memory>
 #include <cmath>
@@ -20,9 +20,9 @@ inline double degrees_to_radians(double degrees) {
 	return degrees * pi / 180.0;
 }
 
-// Common Headers
-#include "ray.h"
-#include "vec3.h"
+// // Common Headers
+// #include "ray.hpp"
+// #include "vec3.hpp"
 
 // Random number generator
 inline double random_double() {
